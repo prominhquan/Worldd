@@ -349,7 +349,7 @@ p{
     background: white;
     border: 1px solid #DDDDDD;
     height: 518px;
-    width: 17%;
+    width: 230px;
     margin-left: 72px;
     margin-top: 243px;
 }
@@ -445,15 +445,13 @@ p{
     margin-left: 97px;
 }
 .ytb{
-    margin-left: 1000px;
+    margin-left: 1002px;
     margin-top: -518px;
-    width: 21%;
 }
 .sld{
-    margin-left: 998px;
+    margin-left: 1000px;
     margin-top: -8px;
     cursor: pointer;
-    width: 21%;
 }
 .vuaghe{
     margin-left: 302px;

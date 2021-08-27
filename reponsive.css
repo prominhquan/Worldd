@@ -4,7 +4,6 @@
     }
     .h3, h3 {
         font-size: 25px;
-
     }
     .quan{
         position: fixed;
@@ -19,7 +18,7 @@
         z-index: 99999;
     width: 100%;
     height: 100px;
-    margin-top: 36px;
+    margin-top: 1px;
     }
     .menutora{
        display: none !important;
@@ -67,7 +66,7 @@
     .crou{
         margin-top: -660px !important;
         margin-left: 0px !important;
-        width: 100% !important;
+        width: 484px !important;
         height: 250px !important;
     }
      .banertrai{
@@ -688,10 +687,7 @@
         height: 1px;                                   
         margin-top: 41px;
         margin-left: 1px;
-    }      
-    .wrapper{
-        display: none !important;
-    }                                      
+    }                                            
 }
 @media (min-width: 741px) and (max-width:1024px){
     .img{
