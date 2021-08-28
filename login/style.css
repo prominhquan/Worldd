@@ -307,7 +307,7 @@ p{
     cursor: pointer;
 }
 .tnsd{
-    margin-left: 50px;                                                                                                                                                                                                    `   ưqsdpx;
+    margin-left: 50px;                                                                                                                                                                                                    
     margin-top: -45px;
     cursor: pointer;
 }
@@ -763,5 +763,13 @@ ul { list-style-type: none; }
 }
 .online{
   margin-left: -828px;
+}
+.home-img{
+  width: 100px;
+  height: 100px;
+}
+#home_img{
+  margin-top: -1057px;
+    margin-left: 73px;
 }
 

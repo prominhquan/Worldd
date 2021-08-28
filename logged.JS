@@ -43,13 +43,13 @@ function myFunction() {
 
 
 
-  $(window).on('load',function(){
-    var delayMs = 1000; // delay in milliseconds
+     $(window).on('load',function(){
+        var delayMs = 1000; // delay in milliseconds
       
-     setTimeout(function(){
-         $('#myModal').modal('show');
-      }, delayMs);
-   });    
+       setTimeout(function(){
+            $('#myModal').modal('show');
+         }, delayMs);
+      });    
   
 
     const targetDiv = document.getElementById("myModal");
@@ -62,5 +62,3 @@ btn.onclick = function () {
   }
 };
 
-
-  

@@ -349,7 +349,7 @@ p{
     background: white;
     border: 1px solid #DDDDDD;
     height: 518px;
-    width: 230px;
+    width: 17%;
     margin-left: 72px;
     margin-top: 243px;
 }
@@ -445,13 +445,15 @@ p{
     margin-left: 97px;
 }
 .ytb{
-    margin-left: 1002px;
+    margin-left: 1000px;
     margin-top: -518px;
+    width: 21%;
 }
 .sld{
-    margin-left: 1000px;
+    margin-left: 998px;
     margin-top: -8px;
     cursor: pointer;
+    width: 21%;
 }
 .vuaghe{
     margin-left: 302px;
@@ -1165,7 +1167,7 @@ h3{
      }
      .mack{
          background: #EEEEEE;
-         width: 1280px;
+         width: 95.4%;
          height: 500px;
          margin-left: 30px;
          margin-top: 30px;
@@ -1173,7 +1175,7 @@ h3{
      }
      .banertrai{
         background: white;
-        width: 595px;
+        width: 46.5%;
         border-radius: 10px;
         height: 450px;
         margin-left: 33px;
@@ -1183,11 +1185,17 @@ h3{
      .banerphai{
         background: white;
         border-radius: 10px;
-        width: 595px;
+        width: 46.5%;
         height: 450px;
         margin-left: 23px;
         margin-top: 26px;
         cursor: pointer;
+    }
+    img.hs{
+        width: 35%;
+    }
+    img.hx{
+        width: 35%;
     }
     .black{
         background: black;
@@ -1252,6 +1260,9 @@ h3{
         height: 393px;
         margin-left: -187px;
         margin-top: -4px; 
+    }
+    .bokk{
+        width: 100%;
     }
     .msg{
         margin-left: -138px;
