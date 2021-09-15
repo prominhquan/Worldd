@@ -6,11 +6,13 @@
 html {
     overflow: -moz-scrollbars-vertical; 
     overflow-y: scroll;
+     overflow-x: hidden !important; 
 }
 .wrapper{
     margin-top: -5px;
     background-color: #DDDDDD;
     height: 40px;
+    width: 100%;
 }
 .navv{
      margin-left: 40px;
@@ -37,6 +39,7 @@ dl, ol, ul {
 .body{
     position: fixed;
     top: 0%;
+    width: 100%;
 }
 
 /* .img{
@@ -44,24 +47,64 @@ dl, ol, ul {
     z-index: 9999;
     transition: all 0.5s ease;
 } */
-
+.iput{
+    width: 79%;
+}
 #minh{
     background: #FFFFFF; 
     top: 0%;  
 } 
  .quan{
      background: #FFFFFF;
-     width: 1360px;
+     width: 100%;
      height: 106px;
      position: fixed;
      margin-top: -130px;
 } 
+.nav__btn{
+    display: none;
+}
  .menutora{
     transform: translateY(-104%);
     transition: 1s;
 } 
-.row:hover{
+.roww{
+    margin: 0 -15px;
+    display: flex;
+    width: 96%;
+}
+.roww:hover{                                             
     cursor: pointer;
+}
+.rowo {
+    display: flex;
+    margin: -1px -34px;
+}
+
+.row{
+    margin-left: 0 -34px !important;
+}
+.imagee{
+    width: 100% !important;
+}
+@media (min-width: 1200px){
+.col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 100% !important;
+}
+@media (min-width: 768px){
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 92% !important;
+}
+}
+}
+.col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 100% !important;
 }
 .logo{
     margin-left: 50px;
@@ -69,27 +112,27 @@ dl, ol, ul {
 }
  input[type=text] {   
     height: 40px !important;
-     background: #fff; 
+    background: #fff;
     padding: 0 20px !important;
-    margin-top: 30px !important; 
-    margin-left: 35px !important;
-    width: 370px;
+    margin-top: 30px !important;
+    margin-left: 55px !important;
+    width: 97%;
     border: 1px solid #CCCCCC;
 }
 .iconn{
-    margin-left: -30px;
+    margin-left: 11px;
     margin-top: 35px;
     font-size: 22px;
     color: red;
 }
 .ds{
       
-      border: 1px solid #CCCCCC;
-      border-radius: 5px;
-      height: 60px;
-      width: 150px;
-      margin-top: 19px;
-      margin-left: 50px;  
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    height: 60px;
+    width: 11%;
+    margin-top: 19px;
+    margin-left: 50px;
 }
 .tt{
     position: absolute;
@@ -109,11 +152,11 @@ dl, ol, ul {
 .phone{
     background: white;
     border: 1px solid #CCCCCC;
-     width: 38px;
-     height: 38px;
-     border-radius: 22px;
-     margin-left: -172px;
-     margin-top: 30px;
+    width: 40px;
+    height: 38px;
+    border-radius: 22px;
+    margin-left: -169px;
+    margin-top: 30px;
 }
 .ti-vector{
     margin-left: -28px;
@@ -124,9 +167,9 @@ dl, ol, ul {
    
     border: 1px solid #CCCCCC;
     border-radius: 5px;
-    width: 180px;
+    width: 13.3%;
     height: 60px;
-    margin-left: 185px;
+    margin-left: 180px;
     margin-top: 18px;
     font-size: 15px;
     cursor: pointer;
@@ -169,10 +212,10 @@ p{
 .cart{
     border-radius: 5px;
     border: 1px solid #CCCCCC;
-    width: 150px;
+    width: 11%;
     height: 60px;
     margin-top: 18px;
-    margin-left: 37px; 
+    margin-left: 37px;
     cursor: pointer;
 }
 .ti-shopping-cart-full{
@@ -184,10 +227,15 @@ p{
 .minhquan{
     position: fixed;
     margin-top: 130px;
+    width: 100%;
 }
 .tong{
     position: relative;
     z-index: 9999;
+}
+.main_layout{
+    width: 100%;
+    justify-content: space-between;
 }
 .crou{
     position: absolute !important;
@@ -200,13 +248,13 @@ p{
 .ba{
     background: #DDDDDD;
     height: 48px;
-    width: 1360px;
+    width: 100%;
     margin-top: -25px;
 }
 .menuu{
     background: #FFCC33;
     height: 48px;
-    width: 230px;
+    width: 17.1%;
     margin-left: 72px;
 }
 .ti-align-justify{
@@ -218,9 +266,10 @@ p{
     margin-top: 11px;
 }
 .camket{
-    margin-left: 40px;
+    margin-left: 32px;
     margin-top: 2px;
     cursor: pointer;
+    width: 14%;
 }
 .giatot{
     margin-left: 45px;
@@ -258,9 +307,10 @@ p{
     text-decoration: none;
 }
 .mienphi{
-    margin-left: 40px;
+    margin-left: -22px;
     margin-top: 5px;
     cursor: pointer;
+    width: 14%;
 }
 .vanchuyen{
     margin-left: 50px;
@@ -308,9 +358,10 @@ p{
     text-decoration: none;
 }
 .thanhtoan{
-    margin-left: 40px;
+    margin-left: -17px;
     margin-top: 4px;
     cursor: pointer;
+    width: 14%;
 }
 .nhanhang:hover{
     color: red;
@@ -320,9 +371,10 @@ p{
     margin-top: -47px;
 }
 .doihang{
-    margin-left: 40px;
+    margin-left: 9px;
     margin-top: 4px;
     cursor: pointer;
+    width: 15%;
 }
 .tradoi:hover{
     color: red;
@@ -333,9 +385,10 @@ p{
     cursor: pointer;
 }
 .baohanh{
-    margin-left: 40px;
+    margin-left: 5px;
     margin-top: 4px;
     cursor: pointer;
+    width: 15%;
 }
 .tnsd{
    cursor: pointer;
@@ -345,11 +398,15 @@ p{
 .tnsd:hover{
     color: red;
 }
+.tonghop{
+    width: 22%;
+
+}
 .list{
-    background: white;
+    background: #EEEEEE;
     border: 1px solid #DDDDDD;
     height: 518px;
-    width: 17%;
+    width: 78%;
     margin-left: 72px;
     margin-top: 243px;
 }
@@ -363,7 +420,6 @@ p{
 .laptoop:hover{
     background: white;
     color: red;
-
 }
 #tp{
     margin-left: 110px;
@@ -444,6 +500,15 @@ p{
 #lk{
     margin-left: 97px;
 }
+/* .layout-right{
+      
+}
+.layout-bottom{
+
+}
+.layout-all{
+    
+} */
 .ytb{
     margin-left: 1000px;
     margin-top: -518px;
@@ -457,21 +522,23 @@ p{
 }
 .vuaghe{
     margin-left: 302px;
+    width: 26%;
 }
 .trumlap{
     margin-left: 654px;
     margin-top: -169px;
+    width: 26%;
 }
 .giamgia{
     margin-left: 1002px;
     margin-top: -172px;
+    width: 26%;
 }
 .quangcao{
     background: #EEEEEE;
-    width: 1280px;
+    width: 95.5%;
     height: 196px;
-    margin-left: 30px;
-    margin-top: -4px;
+    margin: -5px 29px;
 }
 .image img{
     height: 200px;
@@ -479,7 +546,7 @@ p{
 }
 .bannerr{
     background: #CC0000;
-    width: 1280px;
+    width: 95.5%;
     height: 40px;
     margin-left: 30px;
     margin-top: 41px;
@@ -489,17 +556,28 @@ h3{
     margin-top: -20px;
     color: white;
 }
+
 .containerr {
     background: #EEEEEE;
-    width: 1280px;
+    width: 95.5%;
     height: 400px;
     margin-left: 30px;
     display: inline-block;
     border-radius: 10px;
 }
+.slider__bg{
+       background-image: url(img/sale-pc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    padding-bottom: 163px;
+    height: 400px;
+}
+
 .dealhotht{
     background: #EEEEEE;
-    width: 1280px;
+    width: 95.5%;
     height: 780px !important;
     margin-left: 30px;
     display: inline-block;
@@ -508,38 +586,94 @@ h3{
 
 .lkdeal{
     background: #fff;
-    width: 270px;
+    width: 97%;
     height: 350px;
     margin-top: 15px;
-    margin-left: 70px;
+    margin-left: 63px;
     border: 1px solid #DDDDDD;
+}
+.ueh{
+    margin-left: 5px !important;
 }
 .lkdeall{
     background: #fff;
-    width: 270px;
+    width: 97%;
     height: 350px;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 13px;
     border: 1px solid #DDDDDD;
+}
+.sonic{
+    margin-left: 5px !important;
 }
 .lkdealz{
     background: #fff;
-    width: 270px;
+    width: 95%;
     height: 350px;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 2px;
     border: 1px solid #DDDDDD;
 }
 .lkdealk{
     background: #fff;
-    width: 270px;
+    width: 95%;
     height: 350px;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: -11px;
     border: 1px solid #DDDDDD;
 }
-.mixz{
-    margin-left: 8px;
+.item img{
+    width: 100%;
+}
+.asus-g{
+    width: 92%;
+    margin-left: 22px;
+}
+.surface{
+    width: 92%;
+}
+.acer-g{
+    width: 92%;
+    margin-left: 34px;
+}
+.asus-tuf{
+    width: 92%;
+    margin-left: 39px;
+}
+.w-gold{
+    margin-left: 66px;
+}
+.vivosmart{
+    margin-left: 5px;
+}
+.w-black{
+    margin-left: 62px;
+    width: 90.5% !important;
+}
+.w-pink{
+    margin-left: 25px;
+    width: 92% !important;
+}
+.vivo-hr{
+    width: 92% !important;
+}
+.garmin{
+    width: 92% !important;
+    margin-left: 29px;
+}
+.vivofit{
+    width: 92%;
+    margin-left: 35px;
+}
+.dz{
+    width: 87%;
+}
+.dy {
+    width: 88.5% !important;
+    margin-left: 61px;
+}
+.mixz {
+    margin-left: 17px;
 }
 .imagee{
     margin-left: 1px;
@@ -628,56 +762,82 @@ h3{
   }
   .ui{
       background: #CC0000;
-      width: 1280px;
+      width: 95.5%;
       height: 40px;
       margin-left: 30px;
     margin-top: 30px;
   }
  .lap-1{
      background: white;
-     width: 268px;
+     width: 100%;
      height: 220px;
      margin-top: -10px;
     margin-left: -16px;
     display: block !important;
  }
+ 
 
  .itemm{
      margin-left: -5px;
      margin-top: -359px;
+     width: 100%;
  }
-
- .opacti{
+ .phuthuoc{
+    width: 112.5%;
+    margin-left: 0px;
+ }
+  #dp{
+     width: 100%;
+ }
+ .opacti {
     background: none repeat scroll 0 0 rgba(121, 117, 101, 0.8);
     bottom: -100px;
     color: #fff!important;
     font-size: 13px;
-    left: 0;
+    left: -1px;
     padding: 10px;
     width: 267px !important;
     position: absolute;
     transition: bottom 0.5s ease 0s;
-    width: 100%;
+    width: 100% !important;
     text-decoration: none;
-    height: 66px;
- }  
+    height: 53px;
+}
+.opacti_apple{
+    background: none repeat scroll 0 0 rgba(121, 117, 101, 0.8);
+    bottom: -100px;
+    color: #fff!important;
+    font-size: 13px;
+    left: -1px;
+    padding: 10px;
+    width: 267px !important;
+    position: absolute;
+    transition: bottom 0.5s ease 0s;
+    width: 100% !important;
+    text-decoration: none;
+    height: 66px !important;
+}
  .hv:hover .opacti{
     bottom: -12px;
     transition: bottom 0.5s ease 0s;
  }
  .hv{
      box-shadow: 100px #000000;
+     width: 23%;
  }
  .tenlt{
-     background: white;
-     width: 268px;
-     height: 117px;
-     display: block;
-     margin-top: 0px;
-     margin-left: -16px;
-     position: relative;
-     z-index: 9;
+    background: white;
+    width: 100%;
+    height: 117px;
+    display: block;
+    margin-top: 0px;
+    margin-left: -16px;
+    position: relative;
+    z-index: 9;
  }
+  .box{
+    width: 112.5% !important;
+ } 
  .mq{
     text-decoration: none !important;
     font-size: 16px;
@@ -699,6 +859,7 @@ h3{
   .mlz{
       margin-left: 10px;
       margin-top: 10px;
+      width: 96%;
   }
   .ido{
       margin-top: 14px;
@@ -720,23 +881,23 @@ h3{
   }
   .dealtot{
     margin-top: 35px !important;
-    margin-left: 26px;
+    margin-left: 6px;
   }
   .dealtott{
-    margin-left: 325px;
+    margin-left: 309px;
     margin-top: -364px !important;
   }
   .dell{
-    margin-left: 625px;
+    margin-left: 616px;
     margin-top: -364px !important;
   }
  .deaa{
-    margin-left: 925px;
+    margin-left: 922px;
     margin-top: -364px !important;
  }
  .bane{
     background: #CC0000;
-    width: 1280px;
+    width: 95.5%;
     height: 40px;
     margin-left: 31px;
     margin-top: 21px;
@@ -803,6 +964,7 @@ h3{
         text-align: center;
         display: block;
         margin-top: -5px;
+        font-size: 1rem;
       }
       .messenger{
         position: fixed;
@@ -1382,12 +1544,11 @@ h3{
     margin-left: 27px;
 }
 .highlight{
-  background: #EEEEEE;
-  width: 1280px;
-  height: 270px;
-  margin-left: 30px;
-  margin-top: 30px;
-  border-radius: 10px;
+    background: #EEEEEE;
+    width: 95.5%;
+    height: 270px;
+    margin: 30px 30px 0 30px;
+    border-radius: 10px;
 }
 .thanhngang{
     background: black;
@@ -1396,6 +1557,9 @@ h3{
         margin-left: 31px;
     margin-top: -22px;
 
+}
+.layout_img{
+    width: 100%;
 }
 .thuonghieu{
   color: #333;
@@ -1544,10 +1708,10 @@ font-weight: 600;
   margin-top: -118px;
 }
 .top{
-background: #EEEEEE;
-  width: 1343px;
-  height: 150px;
-  margin-top: 24px;
+    background: #EEEEEE;
+    width: 100%;
+    height: 150px;
+    margin-top: 24px;
 }
 .visa{
 margin-left: 447px;
@@ -1605,34 +1769,34 @@ width: 260px;
 height: 204px;
 }
 .send{
-background: #ffe401;
-  width: 77px;
-  height: 38px;
-  margin-left: 1135px;
-  margin-top: 31px;
-  position: relative;
-  z-index: 10;
-  border-radius: 0px 10px 10px 0px;
+    background: #ffe401;
+    width: 76px;
+    height: 38px;
+    margin-left: 1156px;
+    margin-top: 31px;
+    position: relative;
+    z-index: 10;
+    border-radius: 0px 10px 10px 0px;
 }
 .sendd{
-margin-left: 1160px;
-margin-top: -32px !important;
-font-weight: 500;
-font-size: 16px;;
-position: relative;
-z-index: 11;
+    margin-left: 1180px;
+    margin-top: -32px !important;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    z-index: 11;
 
 }
 .foter-main{
 background: #666666 ;
-  width: 1342px;
+  width: 100%;
   height: 1px;
   margin-top: 41px;
   margin-left: 1px;
 }
 .csgh{
 background: white;
-width: 1342px;
+width: 100%;
 height: 144px;
 }
 .gh{
@@ -1653,14 +1817,14 @@ margin-top: 40px;
 }
 .foter-bot{
 background: #666666 ;
-  width: 1342px;
+  width: 100%;
   height: 1px;
   margin-top: 1px;
   margin-left: 1px;
 }
 .foter-reles{
 background: #EEEEEE;
-width: 1342px;
+width: 100%;
 height: 300px;
 }
 
@@ -1788,18 +1952,19 @@ margin-left: 30px;
 .alo:hover{
 color: #00CCFF;
 }
-.aloo{
-margin-left: 30px;
-  margin-top: -22px;
-  cursor: pointer;
-  font-size: 14px;
+.aloo {
+    margin-left: 179px;
+    margin-top: -24px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 200px;
 }
 .aloo:hover{
 color: #00CCFF;
 }
-.clo{
- margin-left: 0px;
- margin-top: -5px;
+.clo {
+    margin-left: 148px;
+    margin-top: -84px;
 }
 .ttonl{
 font-weight: bold;

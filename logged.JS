@@ -43,13 +43,13 @@ function myFunction() {
 
 
 
-     $(window).on('load',function(){
-        var delayMs = 1000; // delay in milliseconds
+    //  $(window).on('load',function(){
+    //     var delayMs = 1000; // delay in milliseconds
       
-       setTimeout(function(){
-            $('#myModal').modal('show');
-         }, delayMs);
-      });    
+    //    setTimeout(function(){
+    //         $('#myModal').modal('show');
+    //      }, delayMs);
+    //   });    
   
 
     const targetDiv = document.getElementById("myModal");
@@ -62,3 +62,65 @@ btn.onclick = function () {
   }
 };
 
+
+  jQuery("#carousel").owlCarousel({
+  autoplay: true,
+  rewind: true, /* use rewind if you don't want loop */
+  margin: 20,
+   /*
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  */
+  responsiveClass: true,
+  autoHeight: true,
+  autoplayTimeout: 7000,
+  smartSpeed: 800,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+
+    600: {
+      items: 3
+    },
+
+    1024: {
+      items: 4
+    },
+
+    1366: {
+      items: 4
+    }
+  }
+});
+
+setInterval(showTime, 1000);
+        function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+  
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+  
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+  
+            let currentTime = hour + ":" 
+                + min + ":" + sec + am_pm;
+  
+            document.getElementById("clock")
+                .innerHTML = currentTime;
+        }
+  
+        showTime()
